@@ -26,16 +26,22 @@ http://www.templatemo.com/tm-521-get-ready
      <style>
           @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-svg {
-	font-family: "Montserrat", sans-serif;
-	width: 100%; height: 100%;
-}
-svg text {
-	animation: stroke 5s infinite alternate;
-	stroke-width: 2;
-	stroke: #EDC800;
-	font-size: 100px;
-}
+          svg {
+               font-family: "Montserrat", sans-serif;
+               width: 100%;
+               height: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+             }
+             
+             svg text {
+               animation: stroke 5s infinite alternate;
+               stroke-width: 2;
+               stroke: #EDC800;
+               font-size: 70px;
+               text-anchor: middle;
+             }
 @keyframes stroke {
 	0%   {
 		fill: rgba(255,218,0,0); stroke: rgba(237,200,0,1);
@@ -54,7 +60,7 @@ svg text {
      </style>
 
 </head>
-<body>
+<body style="background-color: black;">
 
      <!-- PRE LOADER -->
      <section class="preloader">
@@ -77,9 +83,9 @@ svg text {
 
 
      <!-- HOME -->
-     <div style="background-color: black ; padding-top: 300px; padding-bottom: 1000px;" class="wrapper">
-          <svg>
-               <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+     <div style="background-color: black ; justify-content: center ; align-items: center; margin-top: 300px; " class="wrapper">
+          <svg  >
+               <text x="50%" y="50%"  text-anchor="middle">
                     Profilio.in
                </text>
           </svg>
