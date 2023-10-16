@@ -81,10 +81,7 @@ http://www.templatemo.com/tm-521-get-ready
     height: 8px;
   }
 
-  ::-webkit-scrollbar-thumb {
-    cursor: pointer;
-    background: #202020;
-  }
+  
 
   .overlay {
     background: linear-gradient(to top right, #d2b48c, #000000);
@@ -107,7 +104,7 @@ http://www.templatemo.com/tm-521-get-ready
 
   .grid-line {
     height: 300vh;
-    border-right: 1px solid rgba(255,255,255,0.02);
+    border-right: 1px solid rgba(255, 255, 255, 0.02);
   }
 
   .google-map iframe {
@@ -181,7 +178,7 @@ http://www.templatemo.com/tm-521-get-ready
     margin-top: -10px;
     margin-left: -10px;
     border-radius: 50%;
-    border: 1px solid #575757;
+    border: 1px solid #ffffff;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
   }
